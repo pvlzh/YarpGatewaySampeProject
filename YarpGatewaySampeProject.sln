@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi1", "TestApi1\TestApi1.csproj", "{0DECFD4F-732A-4884-8870-A4D36C52CD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi2", "TestApi2\TestApi2.csproj", "{AF52C14C-7F3F-4802-B530-3E62A9413EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4316AE75-C1B3-442D-AEED-0A69929B5AEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{7E1754A3-20A0-47CC-9DE4-06D38128FDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayApi", "GatewayApi\GatewayApi.csproj", "{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DECFD4F-732A-4884-8870-A4D36C52CD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DECFD4F-732A-4884-8870-A4D36C52CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DECFD4F-732A-4884-8870-A4D36C52CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DECFD4F-732A-4884-8870-A4D36C52CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF52C14C-7F3F-4802-B530-3E62A9413EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF52C14C-7F3F-4802-B530-3E62A9413EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF52C14C-7F3F-4802-B530-3E62A9413EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF52C14C-7F3F-4802-B530-3E62A9413EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DECFD4F-732A-4884-8870-A4D36C52CD95} = {4316AE75-C1B3-442D-AEED-0A69929B5AEA}
+		{AF52C14C-7F3F-4802-B530-3E62A9413EAE} = {4316AE75-C1B3-442D-AEED-0A69929B5AEA}
+		{98D1FD47-C00E-4C8D-8E4A-E0BCF0EDF5DF} = {7E1754A3-20A0-47CC-9DE4-06D38128FDDA}
+	EndGlobalSection
+EndGlobal
